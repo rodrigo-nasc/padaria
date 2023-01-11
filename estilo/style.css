@@ -1,42 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
 
-.cabecalho{
+.cabecalho {
     position: relative;
     height: 250px;
-    border-bottom: 2px solid #84490f;;
+    border-bottom: 2px solid #84490f;
 }
 
-.logo{
+.logo {
     margin-left: 5rem;
 }
 
-.imgheader{
+.imgheader {
     width: 100%;
     height: 230px;
     opacity: 0.1;
 }
 
-.logo .padaria{
+.logo .padaria {
     width: 200px;
     border-radius: 50%;
 }
 
-.tituloprincipal{
+.tituloprincipal {
     margin-left: 2rem;
-    font-family:'Nunito', sans-serif;
-    font-weight:900;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
     font-size: 20px;
     color: #84490f;
 }
 
-.superior{
+.superior {
     position: absolute;
     display: flex;
     align-items: center;
@@ -46,59 +45,57 @@
     flex-wrap: wrap;
 }
 
-.navbar{
-    flex-grow: 2;
+.navbar {
+    flex-grow: 1;
 }
 
-.lista{
+.lista {
     display: flex;
     list-style: none;
     justify-content: end;
     margin-right: 7rem;
 }
 
-.item{
+.item {
     border: 1px solid #84490f;
     border-radius: 10px;
     margin-left: 3rem;
-    padding: 4px 0;
+    padding: 8px 0;
 }
 
-.item:hover{
+.item:hover {
     background-color: #84490f;
 }
 
-.lista a{
+.lista__ancora {
     text-decoration: none;
-    margin: 0 1rem;
     color: #84490f;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 18px;
-    padding: 5px;
+    padding: 15px 25px;
 }
 
-.lista a:hover{
+.lista a:hover {
     color: white;
-    padding: 5px;
 }
 
-.subtitulo{
-    font-family: 'Nunito', sans-serif;
+.subtitulo {
+    font-family: "Nunito", sans-serif;
     text-align: center;
     font-size: 25px;
     color: #84490f;
     margin-top: 2rem;
 }
 
-.informacoes{
+.informacoes {
     display: flex;
     width: 90%;
     margin: 0 auto;
 }
 
-.card{
+.card {
     flex: 30%;
     text-align: center;
     margin: 2rem;
@@ -107,220 +104,210 @@
     padding: 10px;
 }
 
-.card:nth-child(3n+1){
+.card:nth-child(3n + 1) {
     margin-left: 0;
 }
 
-.card:nth-child(3n){
+.card:nth-child(3n) {
     margin-right: 0;
 }
 
-.card p{
-    font-family: 'Nunito', sans-serif;
+.card p {
+    font-family: "Nunito", sans-serif;
     font-size: 20px;
     margin-top: 1rem;
 }
 
-.card:hover{
+.card:hover {
     cursor: pointer;
 }
 
-.card:active{
-    border:5px solid #84490f;
+.card:active {
+    border: 5px solid #84490f;
 }
 
-.card:active p{
+.card:active p {
     color: #84490f;
     font-weight: bold;
 }
 
-.dados{
+.dados {
     display: flex;
     width: 90%;
     margin: 0 auto;
     height: auto;
 }
 
-.dados-img{
-   flex: 58%;
-   margin-right: 1rem;
+.dados-img {
+    flex: 58%;
+    margin-right: 1rem;
 }
 
-.informacoes2{
+.informacoes2 {
     flex: 48%;
     margin-left: 1rem;
     text-align: center;
     align-self: center;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
-.informacoes2 h3{
+.informacoes2 h3 {
     font-size: 35px;
     margin-bottom: 3rem;
     color: #84490f;
 }
 
-.informacoes2 p{
+.informacoes2 p {
     line-height: 2rem;
 }
 
-.mapa{
+.mapa {
     width: 90%;
     margin: 1rem auto;
 }
 
-.mapa h3{
-    font-family:'Nunito', sans-serif ;
+.mapa h3 {
+    font-family: "Nunito", sans-serif;
     margin: 2rem 0 1rem 0;
     font-size: 30px;
     color: #84490f;
 }
 
-iframe{
+iframe {
     width: 100%;
 }
 
-.rodape{
-    background-image: linear-gradient(lightgray,darkgray,gray);
+.rodape {
+    background-image: linear-gradient(lightgray, darkgray, gray);
     border-top: 2px solid #84490f;
 }
 
-.redessociais{
+.redessociais {
     text-align: center;
     padding: 2.5rem;
 }
 
-.redessociais p{
-    font-family:'Nunito', sans-serif;
+.redessociais p {
+    font-family: "Nunito", sans-serif;
     font-size: 30px;
-    color:#84490f;
+    color: #84490f;
     font-weight: bold;
     margin: 2rem;
 }
 
-.redessociais img{
+.redessociais img {
     width: 40px;
     margin: 1rem 5rem;
     text-align: center;
 }
 
-.botao{
+.botao {
     position: fixed;
     bottom: 1rem;
     right: 0.5rem;
     text-align: center;
-    font-family:'Nunito', sans-serif ;
+    font-family: "Nunito", sans-serif;
     font-size: 15px;
 }
 
-
-@media only screen and (max-width:1350px){
-    .cabecalho{
+@media only screen and (max-width: 1350px) {
+    .cabecalho {
         height: 350px;
     }
 
-    .logo{
+    .logo {
         margin: 0%;
     }
 
-    .superior{
+    .superior {
         flex-direction: column;
         justify-items: center;
     }
 
-    .tituloprincipal{
+    .tituloprincipal {
         margin: 0%;
     }
 
-    .lista{
+    .lista {
         margin: 0%;
     }
 
-    .item{
-        margin: 1rem 1rem
+    .item {
+        margin: 1rem 1rem;
     }
-    
 }
 
-@media only screen and (max-width:885px){
-    
-    .cabecalho{
-        height:450px;
+@media only screen and (max-width: 885px) {
+    .cabecalho {
+        height: 450px;
     }
-    
-    .superior{
+
+    .superior {
         margin: 0% auto;
     }
 
-    .superior h1{
+    .superior h1 {
         text-align: center;
         margin: 0 auto;
         font-size: 30px;
     }
 
-    .item{
+    .item {
         margin: 0.5rem;
     }
 
-    .logo{
+    .logo {
         width: 100%;
         margin: 0% auto;
         text-align: center;
     }
-    
-    .lista{
+
+    .lista {
         flex-direction: column;
         margin: 0%;
         text-align: center;
     }
 
-    .conteudo-principal{
+    .conteudo-principal {
         margin: 0% auto;
     }
 
-    .informacoes{
+    .informacoes {
         flex-direction: column;
         margin: 0% auto;
         margin-bottom: 1rem;
     }
 
-    .informacoes2{
+    .informacoes2 {
         margin: 0 auto;
     }
 
-    .informacoes2 h3{
+    .informacoes2 h3 {
         margin-bottom: 1rem;
     }
 
-    .card{
+    .card {
         margin: 1rem 0%;
     }
 
-    .dados-img{
+    .dados-img {
         display: none;
     }
 
-    .mapa h3{
+    .mapa h3 {
         text-align: center;
     }
 
-    .redes img{
+    .redes img {
         margin: 0 1rem;
     }
 
-    .redes{
+    .redes {
         display: inline-flex;
         margin: 0%;
     }
-  
-    .botao{
+
+    .botao {
         display: none;
     }
-        
-    }
-
-
-
-
-
-
+}
