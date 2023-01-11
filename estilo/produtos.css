@@ -100,7 +100,6 @@
 .card {
     width: 32%;
     margin: 1rem;
-
     border: 2px solid #84490f;
     border-radius: 17px;
     cursor: pointer;
@@ -109,7 +108,7 @@
 }
 
 .card:hover {
-    border-color: rgb(196, 196, 66);
+    border-color: rgb(148, 148, 48);
 }
 
 .card p {
@@ -123,7 +122,7 @@
 }
 
 .card p:hover {
-    background-color: rgb(196, 196, 66);
+    background-color: rgb(241, 241, 51);
     border-top-color: #84490f;
     color: white;
 }
