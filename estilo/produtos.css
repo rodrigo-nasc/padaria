@@ -377,4 +377,8 @@
     .card9 {
         display: block;
     }
+
+    .redes img {
+        width: 65px;
+    }
 }

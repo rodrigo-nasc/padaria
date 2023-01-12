@@ -363,4 +363,8 @@ iframe {
     .img-padaria {
         width: 45vw;
     }
+
+    .redes img {
+        width: 65px;
+    }
 } ;
