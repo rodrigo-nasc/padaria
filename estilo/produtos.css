@@ -215,7 +215,7 @@
 
 @media (min-width: 350px) {
     .cabecalho {
-        height: 580px;
+        height: 500px;
     }
 
     .superior {
@@ -251,6 +251,7 @@
 
     .card {
         width: 100%;
+        margin: 0.5rem 0%;
     }
 
     .lista__ancora {
@@ -319,6 +320,10 @@
 
     .lista__ancora {
         padding: 10px 25px;
+    }
+
+    .botao {
+        display: block;
     }
 }
 

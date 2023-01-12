@@ -320,6 +320,10 @@ iframe {
     .img-padaria {
         width: 100%;
     }
+
+    .botao {
+        display: block;
+    }
 }
 
 @media (min-width: 1024px) {
