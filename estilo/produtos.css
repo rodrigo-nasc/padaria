@@ -1,384 +1,384 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
 .cabecalho {
-    position: relative;
-    height: 250px;
-    border-bottom: 2px solid #84490f;
-    background: linear-gradient(90deg, #d2b48c, #deb887, #f5deb3);
+  position: relative;
+  height: 250px;
+  border-bottom: 2px solid #84490f;
+  background: linear-gradient(90deg, #d2b48c, #deb887, #f5deb3);
 }
 
 .logo {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 .logo .padaria {
-    width: 180px;
+  width: 180px;
 }
 
 .tituloprincipal {
-    margin-left: 2rem;
-    font-family: "Nunito", sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    color: #84490f;
+  margin-left: 2rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #84490f;
 }
 
 .superior {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    top: 30px;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 30px;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .navbar {
-    flex-grow: 2;
+  flex-grow: 2;
 }
 
 .lista {
-    display: flex;
-    list-style: none;
-    justify-content: end;
-    margin-right: 7rem;
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  margin-right: 7rem;
 }
 
 .item {
-    border: 1px solid #84490f;
-    border-radius: 10px;
-    margin-left: 3rem;
+  border: 1px solid #84490f;
+  border-radius: 10px;
+  margin-left: 3rem;
 }
 
 .item:hover {
-    background-color: #84490f;
+  background-color: #84490f;
 }
 
 .lista__ancora {
-    text-decoration: none;
-    color: #84490f;
-    font-family: "Nunito", sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    padding: 15px 25px;
+  text-decoration: none;
+  color: #84490f;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 25px;
 }
 
 .lista a:hover {
-    color: white;
+  color: white;
 }
 
 .principal {
-    margin: 2rem auto;
-    width: 90%;
+  margin: 2rem auto;
+  width: 90%;
 }
 
 .principal h2 {
-    font-family: "Nunito", sans-serif;
-    font-size: 30px;
-    color: #84490f;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #84490f;
 }
 
 .lista-produtos {
-    display: flex;
-    flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .card {
-    width: 32%;
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-grow: 1;
-    margin: 0.2rem;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 32%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+  margin: 0.2rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .card p {
-    background: rgba(0, 0, 0, 0.2);
-    color: white;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    border-radius: 0 0 5px 5px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
 }
 
 .card1 {
-    background-image: url(../img/brownie.jpg);
+  background-image: url(../img/brownie.jpg);
 }
 
 .card2 {
-    background-image: url(../img/torta.jpg);
+  background-image: url(../img/torta.jpg);
 }
 
 .card3 {
-    background-image: url(../img/rosca.jpg);
+  background-image: url(../img/rosca.jpg);
 }
 
 .card4 {
-    background-image: url(../img/bolo.jpg);
+  background-image: url(../img/bolo.jpg);
 }
 
 .card5 {
-    background-image: url(../img/donuts.jpg);
+  background-image: url(../img/donuts.jpg);
 }
 
 .card6 {
-    background-image: url(../img/croissant.jpg);
+  background-image: url(../img/croissant.jpg);
 }
 
 .card7 {
-    background-image: url(../img/cupcake.jpg);
+  background-image: url(../img/cupcake.jpg);
 }
 
 .card8 {
-    background-image: url(../img/salgados.jpg);
+  background-image: url(../img/salgados.jpg);
 }
 
 .card9 {
-    background-image: url(../img/paes.jpg);
+  background-image: url(../img/paes.jpg);
 }
 
 .card:nth-child(3n + 1) {
-    margin-left: 0%;
+  margin-left: 0%;
 }
 
 .card:nth-child(3n) {
-    margin-right: 0%;
+  margin-right: 0%;
 }
 
 .pedidos {
-    text-align: center;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .pedidos h3 {
-    font-family: "Nunito", sans-serif;
-    font-size: 25px;
-    color: #84490f;
-    margin-bottom: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  color: #84490f;
+  margin-bottom: 1rem;
 }
 
 .pedidos p {
-    font-family: "Nunito", sans-serif;
-    font-size: 20px;
-    color: #84490f;
-    line-height: 2rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #84490f;
+  line-height: 2rem;
 }
 
 .rodape {
-    background-image: linear-gradient(lightgray, darkgray, gray);
-    border-top: 2px solid #84490f;
+  background-image: linear-gradient(lightgray, darkgray, gray);
+  border-top: 2px solid #84490f;
 }
 
 .redessociais {
-    text-align: center;
-    padding: 2.5rem;
+  text-align: center;
+  padding: 2.5rem;
 }
 
 .redessociais p {
-    font-family: "Nunito", sans-serif;
-    font-size: 30px;
-    color: #84490f;
-    font-weight: bold;
-    margin: 2rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  color: #84490f;
+  font-weight: bold;
+  margin: 2rem;
 }
 
 .redessociais img {
-    width: 40px;
-    margin: 1rem 5rem;
-    text-align: center;
+  width: 40px;
+  margin: 1rem 5rem;
+  text-align: center;
 }
 
 .botao {
-    position: fixed;
-    bottom: 1rem;
-    right: 0.5rem;
-    text-align: center;
-    font-family: "Nunito", sans-serif;
-    font-size: 15px;
+  position: fixed;
+  bottom: 1rem;
+  right: 0.5rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
 }
 
 @media (min-width: 350px) {
-    .cabecalho {
-        height: 520px;
-    }
+  .cabecalho {
+    height: 520px;
+  }
 
-    .superior {
-        flex-direction: column;
-    }
+  .superior {
+    flex-direction: column;
+  }
 
-    .logo {
-        margin: 0%;
-    }
+  .logo {
+    margin: 0%;
+  }
 
-    .tituloprincipal {
-        margin: 0%;
-        text-align: center;
-    }
+  .tituloprincipal {
+    margin: 0%;
+    text-align: center;
+  }
 
-    .navbar {
-        justify-content: center;
-    }
+  .navbar {
+    justify-content: center;
+  }
 
-    .lista {
-        flex-direction: column;
-        margin: 0%;
-        justify-content: center;
-    }
+  .lista {
+    flex-direction: column;
+    margin: 0%;
+    justify-content: center;
+  }
 
-    .item {
-        margin: 0 0 1rem 0;
-    }
+  .item {
+    margin: 0 0 1rem 0;
+  }
 
-    .lista-produtos {
-        flex-direction: column;
-    }
+  .lista-produtos {
+    flex-direction: column;
+  }
 
-    .card {
-        width: 100%;
-        margin: 0.5rem 0%;
-    }
+  .card {
+    width: 100%;
+    margin: 0.5rem 0%;
+  }
 
-    .lista__ancora {
-        display: block;
-        padding: 10px;
-    }
+  .lista__ancora {
+    display: block;
+    padding: 10px;
+  }
 
-    .principal {
-        flex-direction: column;
-    }
+  .principal {
+    flex-direction: column;
+  }
 
-    .redes {
-        display: flex;
-        justify-content: center;
-    }
+  .redes {
+    display: flex;
+    justify-content: center;
+  }
 
-    .redes a {
-        width: 30%;
-    }
+  .redes a {
+    width: 30%;
+  }
 
-    .redes a img {
-        margin: 0%;
-    }
+  .redes a img {
+    margin: 0%;
+  }
 
-    .botao {
-        display: none;
-    }
+  .botao {
+    display: none;
+  }
 }
 
 @media (min-width: 701px) {
-    .cabecalho {
-        height: 380px;
-    }
+  .cabecalho {
+    height: 380px;
+  }
 
-    .card {
-        width: 49%;
-    }
+  .card {
+    width: 49%;
+  }
 
-    .lista-produtos {
-        flex-direction: row;
-    }
+  .lista-produtos {
+    flex-direction: row;
+  }
 
-    .card9 {
-        display: none;
-    }
+  .card9 {
+    display: none;
+  }
 
-    .card:nth-child(1n + 1) {
-        margin-left: 0%;
-        margin-right: 0.2rem;
-    }
+  .card:nth-child(1n + 1) {
+    margin-left: 0%;
+    margin-right: 0.2rem;
+  }
 
-    .card:nth-child(2n) {
-        margin-right: 0%;
-        margin-left: 0.2rem;
-    }
+  .card:nth-child(2n) {
+    margin-right: 0%;
+    margin-left: 0.2rem;
+  }
 
-    .lista {
-        flex-direction: row;
-        width: 100%;
-    }
+  .lista {
+    flex-direction: row;
+    width: 100%;
+  }
 
-    .item {
-        margin: 0.5rem;
-        width: 32%;
-    }
+  .item {
+    margin: 0.5rem;
+    width: 32%;
+  }
 
-    .lista__ancora {
-        padding: 10px 25px;
-    }
+  .lista__ancora {
+    padding: 10px 25px;
+  }
 
-    .botao {
-        display: block;
-    }
+  .botao {
+    display: block;
+  }
 }
 
 @media (min-width: 1024px) {
-    .cabecalho {
-        height: 250px;
-    }
-    .superior {
-        flex-direction: row;
-    }
+  .cabecalho {
+    height: 250px;
+  }
+  .superior {
+    flex-direction: row;
+  }
 
-    .logo {
-        width: 15%;
-        text-align: right;
-    }
+  .logo {
+    width: 15%;
+    text-align: right;
+  }
 
-    .tituloprincipal {
-        width: 45%;
-        text-align: left;
-    }
+  .tituloprincipal {
+    width: 45%;
+    text-align: left;
+  }
 
-    .navbar {
-        margin-left: 1rem;
-    }
+  .navbar {
+    margin-left: 1rem;
+  }
 
-    .lista {
-        justify-content: space-between;
-    }
+  .lista {
+    justify-content: space-between;
+  }
 
-    .lista__ancora {
-        padding: 10px 0;
-    }
+  .lista__ancora {
+    padding: 10px 0;
+  }
 
-    .card {
-        width: 31%;
-        margin: 0;
-    }
+  .card {
+    width: 31%;
+    margin: 0;
+  }
 
-    .card:nth-child(3n + 1) {
-        margin: 0.5rem 0.2rem 0 0;
-    }
+  .card:nth-child(3n + 1) {
+    margin: 0.5rem 0.2rem 0 0;
+  }
 
-    .card:nth-child(3n + 2) {
-        margin: 0.5rem 0 0 0;
-    }
+  .card:nth-child(3n + 2) {
+    margin: 0.5rem 0 0 0;
+  }
 
-    .card:nth-child(3n) {
-        margin: 0.5rem 0 0 0.2rem;
-    }
+  .card:nth-child(3n) {
+    margin: 0.5rem 0 0 0.2rem;
+  }
 
-    .card9 {
-        display: block;
-    }
+  .card9 {
+    display: flex;
+  }
 
-    .redes img {
-        width: 65px;
-    }
+  .redes img {
+    width: 65px;
+  }
 }
